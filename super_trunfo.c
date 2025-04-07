@@ -29,9 +29,8 @@ int main() {
     scanf(" %[^\n]", cidade1); // Lê a linha inteira até encontrar um '\n'
     printf("População: ");
     scanf("%d", &populacao1);
-    printf("Digite a área da cidade: \n");
-    scanf(" "); // Consome todos os espaços em branco (incluindo \n)
-    scanf("%f", &area1); // Lê o float diretamente
+    printf("Área (em km²): ");
+    scanf("%f", &area1);
     printf("PIB (em bilhões de reais): ");
     scanf("%f", &pib1);
     printf("Número de Pontos Turísticos: ");
@@ -47,9 +46,8 @@ int main() {
     scanf(" %[^\n]", cidade2);
     printf("População: ");
     scanf("%d", &populacao2);
-    printf("Digite a área da cidade: \n");
-    scanf(" "); // Consome todos os espaços em branco (incluindo \n)
-    scanf("%f", &area2); // Lê o float diretamente
+    printf("Área (em km²): ");
+    scanf("%f", &area2);
     printf("PIB (em bilhões de reais): ");
     scanf("%f", &pib2);
     printf("Número de Pontos Turísticos: ");

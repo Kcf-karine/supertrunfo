@@ -30,8 +30,8 @@ int main() {
     printf("População: ");
     scanf("%d", &populacao1);
     printf("Digite a área da cidade: \n");
-    scanf(" %1s", temp); // Consome qualquer resíduo (ex.: \n)
-    scanf(" %f", &area1); // Lê o float
+    scanf(" "); // Consome todos os espaços em branco (incluindo \n)
+    scanf("%f", &area1); // Lê o float diretamente
     printf("PIB (em bilhões de reais): ");
     scanf("%f", &pib1);
     printf("Número de Pontos Turísticos: ");
@@ -48,8 +48,8 @@ int main() {
     printf("População: ");
     scanf("%d", &populacao2);
     printf("Digite a área da cidade: \n");
-    scanf(" %1s", temp); // Consome qualquer resíduo (ex.: \n)
-    scanf(" %f", &area2); // Lê o float
+    scanf(" "); // Consome todos os espaços em branco (incluindo \n)
+    scanf("%f", &area2); // Lê o float diretamente
     printf("PIB (em bilhões de reais): ");
     scanf("%f", &pib2);
     printf("Número de Pontos Turísticos: ");
